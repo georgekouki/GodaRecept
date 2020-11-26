@@ -1,0 +1,133 @@
+body{
+    background-image: url("../img/intro.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Vollkorn', serif;
+   
+}
+
+.navbar-default {
+    background-color: white;
+    min-height: 70px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: black;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover 
+{
+    background-color: white;
+}
+.navbar-default li a span {
+    line-height: normal;
+    margin: 28px 0 29px;
+    padding: 8px 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius:12px;
+    box-shadow: 5px;
+}
+.navbar-default li a span:focus,
+.navbar-default li a span:hover {
+    background-color:#b53a91;
+    color: white;
+}
+.navbar ul ul:after {
+    content: "";
+    position: absolute;
+    top: -11px;
+    right: 47%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent #b53a91 transparent;
+}
+.dropdown-menu{
+    min-width: 200px;
+    font-size: 18px;
+} 
+
+.dropdown-menu>li>a:focus,
+ .dropdown-menu>li>a:hover{
+     color: #b53a91;
+     padding-left:30px;
+     -webkit-transition: padding 0.5s ease;
+     -moz-transition: padding 0.5s ease;
+     -o-transition: padding 0.5s ease;
+     transition: padding 0.5s ease;
+ }
+ 
+
+ .navbar-brand>img{
+     margin-top: 5px;
+ }
+ .navbar-brand{
+      padding: 2px 15px;
+  } 
+
+.article{
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 2PX 2PX 20px 2px #888;
+    margin-top: 148px;
+    margin-bottom: 20px;
+}
+  .img-responsive{
+      border-color:darkslategray;
+      border-style: hidden;
+      border-radius: 10px;
+      box-shadow: 2PX 2PX 20px 2px #888;
+      margin-top:15px;
+  }
+  .header{
+      margin-top:5px;
+      margin-bottom: 5px;
+      color: #b53a91;
+  }
+  .header>h3{
+      font-weight: 600;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form{
+      border: none;
+  }
+  .navbar-toggle{
+      margin-top: 18px;
+  }
+  .container-fluid>.navbar-collapse, 
+  .container-fluid>.navbar-header, 
+  .container>.navbar-collapse, 
+  .container>.navbar-header{
+    min-height: 66px;
+  }
+  .information{
+      margin-top:35px;
+   }
+
+  .footer{
+      background: #b53a91;
+      color: white;
+      padding-bottom: 20px;
+  }
+
+  .icons img{
+      margin-top: 20px;
+width:50px;
+  }
+  .contact{
+      margin-top: 20px;
+  }
+  
+  .aside-header{
+      font-weight: bold;
+  }
+  .more_text{
+    display: none;
+ }

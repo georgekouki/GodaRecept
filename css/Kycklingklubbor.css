@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Vollkorn', serif;
+
+}
+
+.main-menu{
+    margin-left:14%;
+    width: 59%;
+    background-color: white;
+    padding-top: 41px;
+    height: 70px;
+    box-shadow: 2PX 2PX 20px 2px #888;
+    
+}
+
+.ingredients-component {
+    float: left;
+    border-right: 1px solid #e1e1dc;
+    margin-left: 15px;
+    padding-right: 32px;
+}
+div #step-by-step {
+    padding-top:1px;
+    margin-left: 46%;
+    
+}
+#step-by-step ol li {
+    padding-bottom: 25px;
+}
+.ingredients-component ul li {
+    padding-bottom: 15px; 
+}
+
+.right-border{
+    border-right: solid 1px #e1e1dc;
+}
+.bottom-margin{
+    margin-bottom: 30px;
+}
+
+.footer{
+    background: #b53a91;
+    color: white;
+    padding-bottom: 20px;
+}
+.icons img{
+    margin-top: 20px;
+width:50px;
+}
+.contact{
+    margin-top: 20px;
+}
+@media (max-width: 767px){
+    .right-border{
+        border-right: none;
+
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .right-border{
+        border-right: none;
+
+    }
+}

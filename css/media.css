@@ -1,0 +1,118 @@
+
+/* Smart Phones And Tablets */
+
+@media (max-width: 767px)
+{
+    .navbar-default .navbar-nav > li > a
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+    .navbar-brand>img{
+        margin-top: -1px;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+    .article
+    {
+        margin-top: 22px;
+        margin-left: 15%;
+        width: 71%;
+ 
+    }
+    .read_more{
+        font-size: 16px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #b53a91;
+        -webkit-transition: padding 0.5s ease;
+        -moz-transition: padding 0.5s ease;
+        -o-transition: padding 0.5s ease;
+        transition: padding 0.5s ease;
+        padding-left:30px;
+    }
+}
+
+/* Smal Screen */
+
+@media (min-width:768px) and (max-width:991px){
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        border-top: 3px solid  #b53a91;
+     }
+     .navbar-brand>img {
+        margin-top: 0px;
+     }
+     .navbar-default .navbar-collapse,
+      .navbar-default .navbar-form{
+          margin-left: 207px;
+      }
+      .navbar-default li a span{
+        padding: 7px 10px;
+      }
+      .navbar-default .navbar-nav > li > a{
+          font-size: 21px;
+      }
+     .footer
+     {
+         text-align: center;
+     }
+     .navbar-nav{
+        margin-top: -70px;
+     }
+     .article{
+        width: 89%;
+        margin-left: 43px;
+     }
+   
+     .aside-article{
+        word-wrap: break-word;
+        padding-right: 5px;
+    padding-left: 6px;
+        }
+        .read_more{
+            font-size: 16px;
+        }
+
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px){
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        border-top: 3px solid  #b53a91;
+     }
+     .aside-article{
+        word-wrap: break-word;
+        padding-right: 5px;
+    padding-left: 6px;
+        }
+        .read_more{
+            font-size: 18px;
+        }
+}
+
+/* Large Screen */
+
+@media (min-width: 1200px){
+    .dropdown:hover .dropdown-menu 
+    {
+        display: block;
+        margin-top: 0;
+        border-top: 3px solid  #b53a91;
+     }
+     .read_more{
+         font-size: 18px;
+     }
+}
+
+
+
